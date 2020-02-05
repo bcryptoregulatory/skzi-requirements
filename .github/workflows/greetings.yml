@@ -9,4 +9,4 @@ jobs:
     - uses: actions/first-interaction@v1
       with:
         repo-token: ${{ secrets.GITHUB_TOKEN }}
-        issue-message: 'Благодарим за Ваш отзыв! Он будет рассмотрен в ближайшее время.'' first issue'
+        issue-message: 'Благодарим за Ваш отзыв! Он будет рассмотрен в ближайшее время.'
