@@ -11,15 +11,15 @@
 | | | brng, bake-bsts или bake-bmqv или dhe-bign или dht-bign или dht-psk-bign или bake-dh или bign-keyt, x509, crl или ocsp |
 | | | brng, tls |
 | | | brng, bake-dh, belt-keyrep, bels-share |
+| Криптографический токен | bign-with-hbelt | brng, bake-bpace, btok-bpace, cryptoki, bign-genkeypair, bign-genk, bign-keyt, csr, x509, [btok-bauth, btok-cvc] | hardware |
 | Средства выработки электронной цифровой подписи (далее-ЭЦП) | bign-with-hbelt | brng или bign-genk, bpki-container, belt-kwp, [csr] | software |
 | | | brng или bign-genk, [csr] | hardware | |
-| Криптографический токен | bign-with-hbelt | brng, bake-bpace, btok-bpace, cryptoki, bign-genkeypair, bign-genk, bign-keyt, csr, x509, [btok-bauth, btok-cvc] | hardware |
 | Средства проверки ЭЦП | bign-with-hbelt | x509, crl или ocsp, [attr] | software или hardware |
 | | 1176-dsa |
 | Средства выработки личного ключа или открытого ключа |   | brng, bign-genkeypair | software или hardware |   |
-| Средства контроля целостности | belt-hash или bash |   |   |   |
-| | belt-mac или hmac | brng, belt-keyrep | software или hardware |
+| Средства контроля целостности | belt-mac или hmac | brng, belt-keyrep | software или hardware |
 | | bign-with-hbelt | brng, bign-genkeypair, bign-genk | software или hardware |
+| | belt-hash или bash |   |   |   |
 
 
 
