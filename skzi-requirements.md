@@ -7,8 +7,8 @@
 | --- | --- | --- | --- |
 | Средства предварительного шифрования | (belt, belt-mac или hmac) или belt-dwp | \*brng, belt-keyrep или bign-keyt | software или hardware |
 | | | brng, bake-bsts или bake-bmqv или bign-keyt, x509, crl или ocsp |
-| Средства линейного шифрования, в том числе для использования в системах профессиональной радиосвязи Республики Беларусь | | brng, bake-bsts или bake-bmqv или dhe-bign или dht-bign или dht-psk-bign или bake-dh или bign-keyt, x509, crl или ocsp | software или hardware |
-| | (belt, belt-mac или hmac) или belt-dwp | \*brng, bake-bpace или dhe-psk-bign или belt-keyrep или bign-keyt | | |
+| Средства линейного шифрования, в том числе для использования в системах профессиональной радиосвязи Республики Беларусь | (belt, belt-mac или hmac) или belt-dwp | brng, bake-bsts или bake-bmqv или dhe-bign или dht-bign или dht-psk-bign или bake-dh или bign-keyt, x509, crl или ocsp | software или hardware |
+| | | \*brng, bake-bpace или dhe-psk-bign или belt-keyrep или bign-keyt | | |
 | | | brng, bake-dh, belt-keyrep, bels-share |
 | | | brng, tls |
 | Криптографический токен | bign | brng, bake-bpace, btok-bpace, cryptoki, bign-genkeypair, bign-genk, bign-keyt, csr, x509, [btok-bauth, btok-cvc] | hardware |
